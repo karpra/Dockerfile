@@ -1,7 +1,7 @@
 #
 # Flask & Pandas Dockerfile
 #
-# https://github.com/dockerfile/nginx
+# https://github.com/karpra/Dockerfile/flweb
 #
 
 # Pull base image.
