@@ -20,6 +20,9 @@ RUN \
   bash /tmp/config && \
   rm -f /tmp/config
 
+# Add Shell Script
+ADD ./startup.sh /opt/startup.sh
+
 # Define mountable directories.
 VOLUME ["/etc/mysql", "/var/lib/mysql"]
 
@@ -27,7 +30,7 @@ VOLUME ["/etc/mysql", "/var/lib/mysql"]
 WORKDIR /data
 
 # Define default command.
-CMD ["mysqld_safe"]
+CMD ["/bin/bash", "/opt/startup.sh"]
 
 # Expose ports.
 EXPOSE 3306
