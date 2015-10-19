@@ -1,7 +1,7 @@
 #
-# Ubuntu Dockerfile
+# base version 
 #
-# https://github.com/dockerfile/ubuntu
+# https://karpra.github.io
 #
 
 # Pull base image.
