@@ -6,9 +6,6 @@
 # Pull base image(ubuntu latest)
 FROM base
 
-# Author
-MAINTAINER karpra
-
 # Download Mule ESB 3.7.0 & Install it.
 RUN \
     apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install libpcre3 libssl-dev libpcre3-dev wget zip gcc default-jdk && \
