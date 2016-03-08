@@ -13,3 +13,5 @@ Creating Dockerfile for Environments
 > nginx 
 
 > rabbit mq 
+
+> redis 3.0
