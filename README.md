@@ -2,9 +2,9 @@
 
 Creating Dockerfile for Environments
 
-1. Apache Active MQ 5.12.1
-2. Flask + Pandas
-3. Mule ESB Runtime 3.7.0
-4. MySQL
-5. Engine X
-6. Rabbit MQ
+** apache active mq 5.12.1,5.13.1
+** flask 0.10.1 
+** mule esb runtime 3.7.0
+** mysql
+** nginx 
+** rabbit mq 
